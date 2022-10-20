@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aquamarine;
+  padding: 2%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(172, 116, 116);
+  font-size: x-large;
+}
+button {
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 2rem;
+  color: #c07a41;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #5c39298e;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.hero {
+  background-color: rgb(108, 167, 108);
+  padding: 10%;
+}
+.reset {
+  background-color: rgba(158, 9, 96, 0.616);
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+}
+
+.hero h2 {
+  font-size: xx-large;
+  color: whitesmoke;
+  text-align: center;
+}
+.content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.changemenu {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: pink;
+  padding: 16px;
+}
+.changemenu {
+  display: flex;
+  justify-content: space-around;
+}
+.changemenu b {
+  cursor: pointer;
+}
+
+.brands {
+  background-color: rgb(93, 163, 175);
+  width: 300px;
+  height: 200px;
+  padding: 36px;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px;
+  text-align: center;
+}
+.toggle {
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+  background-color: beige;
+}
+.mobilesection {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.shoesection {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bran {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.shoebrand {
+  background-color: aqua;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  font-size: large;
+  padding: 20px;
+  border-radius: 30px;
+}
+.btncontrol {
+  color: black;
+  background-color: beige;
+}
+.btncontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container button {
+  width: 100px;
+  height: 40px;
+}
+
+.List {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  height: 40vh;
+  width: 40vh;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+@media (max-width: 480px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .nav a {
+    display: none;
+  }
+}
