@@ -8,6 +8,7 @@ import Cards from "./components/shoes";
 import Rock from "./components/arra";
 import Smart from "./components/smart";
 import Kore from "./components/list";
+import TodoList from "./components/form";
 
 function App() {
   const smartphones = [
@@ -229,6 +230,8 @@ function App() {
       <Color />
       <Cards />
       <Rock />
+
+      <TodoList />
       <Kore />
     </React.Fragment>
   );
