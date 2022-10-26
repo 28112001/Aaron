@@ -28,7 +28,7 @@ const Appp = () => {
   return (
     <div className="Appp">
       <div className="container">
-        <h5>Todo list App</h5>
+        <h1>Todo list App</h1>
         <form className="todoForm" onSubmit={handleSubmit}>
           <input
             type="text"
