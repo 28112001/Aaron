@@ -7,7 +7,6 @@ import Color from "./components/color";
 import Cards from "./components/shoes";
 import Rock from "./components/arra";
 import Smart from "./components/smart";
-import Kore from "./components/list";
 import Form from "./components/form";
 import Appp from "./components/list";
 
